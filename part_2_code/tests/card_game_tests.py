@@ -34,7 +34,7 @@ class TestCardGame(unittest.TestCase):
         self.assertEqual(result, expected)
 
     def test_cards_total(self):
-        result = "You have a total of 1"
+        result = "You have a total of 6"
         expected = self.cardgame.cards_total(self.cards)
         self.assertEqual(result, expected)
     
